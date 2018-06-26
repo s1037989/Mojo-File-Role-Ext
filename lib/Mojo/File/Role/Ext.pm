@@ -9,3 +9,9 @@ requires 'basename';
 sub ext { shift->basename =~ /\.([^\.]+)/; return $1 || '' }
 
 1;
+
+=head1 NAME
+
+Mojo::File::Role::Ext - Minimal base class for Mojo projects
+
+=cut
